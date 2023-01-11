@@ -78,7 +78,7 @@
 }
 
 .menu-list-item:nth-child(n + 2) {
-  margin-left: 36px;
+  margin-left: 35px;
 }
 
 .menu-link {
@@ -994,7 +994,6 @@
     margin-bottom: 3px;
     margin-right: 5px;
     max-width: 49%;
-
   }
 
   .trends-foto {
@@ -1041,8 +1040,6 @@
     min-width: 270px;
   }
 
-  
-
   .shop-line {
     width: 760px;
     min-width: 100%;
@@ -1050,15 +1047,13 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-   
-   .wrapper-shop {
+
+  .wrapper-shop {
     width: 760px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-   }
-
-
+  }
 
   .shop-box:nth-child(-n + 2) {
     margin-right: 67px;
