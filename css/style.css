@@ -18,7 +18,8 @@
 }
 
 .welcome {
-  min-width: 1200px;
+  min-width: 100%;
+  /* min-width: 1200px; */
   font-family: opensans, Arial, sans-serif;
   box-sizing: border-box;
   background-image: url("../images/banner-bg.jpg");
@@ -44,12 +45,11 @@
 
 .up-menu {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 15px 0px 15px;
 }
 
-.logo {
-  padding: 27px 0px 0px 15px;
-}
 
 .logo-header {
   height: 40px;
@@ -63,10 +63,7 @@
   font-size: 13px;
   color: #ffffff;
   font-weight: normal;
-  padding-right: 15px;
-  padding-top: 45px;
   text-transform: uppercase;
-  padding-left: 500px;
 }
 
 .menu-list-item:hover {
@@ -187,7 +184,7 @@
   font-family: opensans, Arial, sans-serif;
   display: flex;
   justify-content: center;
-  padding: 54px 1% 0px 1%;
+  padding: 54px 15px 0px 15px;
   box-sizing: border-box;
   margin: 0 auto;
 }
@@ -513,7 +510,6 @@
 
 .shop {
   font-family: opensans, Arial, sans-serif;
-  justify-content: center;
   padding: 62px 15px 0px 15px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -524,10 +520,6 @@
   justify-content: center;
 }
 
-/* .shop-line {
-  display: flex;
-  justify-content: center;
-} */
 
 .title-shop {
   text-align: center;
@@ -562,8 +554,8 @@
 .foto-buy {
   background-color: #eff6f1;
   box-sizing: border-box;
-  width: 300px;
-  height: 200px;
+  /* width: 300px;
+  height: 200px; */
 }
 
 .info-shop {
@@ -917,10 +909,7 @@
     background-position: bottom;
   }
 
-  .up-menu {
-    display: flex;
-    justify-content: flex-start;
-  }
+ 
 
   .logo {
     padding: 42px 0px 0px 35px;
@@ -1015,7 +1004,6 @@
   }
 
   .post-list {
-    max-width: 100%;
     max-width: 390px;
     padding-right: 30px;
   }
@@ -1028,24 +1016,17 @@
   }
 
   .foto-post {
+    max-width: 100%;
     margin-right: 10px;
-  }
-
-  .card-header {
-    /* max-width: 100%; */
-    /* width: 381px; */
   }
 
   .side-bar {
     min-width: 270px;
   }
 
-  .shop-line {
-    width: 760px;
-    min-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  .shop {
+    max-width: 760px;
+    box-sizing: border-box;
   }
 
   .wrapper-shop {
@@ -1055,6 +1036,7 @@
     justify-content: flex-start;
   }
 
+  
   .shop-box:nth-child(-n + 2) {
     margin-right: 67px;
   }
@@ -1066,12 +1048,15 @@
 
 @media (max-width: 640px) {
   .welcome {
-    min-width: 360px;
     min-width: 100%;
     background-image: url("../images/banner-mobile.jpg");
     background-repeat: no-repeat;
     background-position: bottom center;
     margin-bottom: 44px;
+  }
+
+  .up-menu {
+    justify-content: center;
   }
 
   .logo {
@@ -1135,7 +1120,7 @@
   }
 
   .trends {
-    width: 100%;
+    min-width: 100%;
     padding: 0px 0px 0px 0px;
   }
 
@@ -1148,7 +1133,7 @@
 
   .trends-box {
     max-width: 100%;
-    min-width: 360px;
+    min-width: 100px;
     justify-content: center;
     margin-bottom: 3px;
     margin-right: 0px;
@@ -1218,12 +1203,26 @@
     align-items: center;
   }
 
+  .title-shop {
+    font-size: 16px;
+  }
+
   .wrapper-shop {
     display: flex;
     flex-direction: column;
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .info-shop-header {
+    font-size: 17px;
+  }
+
+  .info-shop-title {
+    font-size: 15px;
+  }
+
+
 
   .shop-box:nth-child(-n + 2) {
     margin-right: 0px;
