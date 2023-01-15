@@ -1050,7 +1050,7 @@
   .info-shop {
     position: relative;
     width: auto;
-    height: auto;
+    height: 320px;
   }
 
   .shop-box:nth-child(-n + 2) {
@@ -1230,12 +1230,15 @@
   }
 
   .foto-buy {
-    width: 100%;
+    max-width: 100%;
   }
 
   .info-shop {
     position: relative;
     width: auto;
+    max-width: 345px;
+    height: auto;
+    max-height: 400px;
   }
 
   .basement {
